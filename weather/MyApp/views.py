@@ -11,7 +11,7 @@ def index(request):
 
 def forcast(city_name):
     units = "&units=metric"
-    api_key = "d659a0b19c7e0e6fb7d28dc9c90668b5"
+    api_key = "API_KEY"
     base = "api.openweathermap.org/data/2.5/forecast?"
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name + units
     #"api.openweathermap.org/data/2.5/forecast?appid=d659a0b19c7e0e6fb7d28dc9c90668b5&q=lucknow"
